@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Telugu:wght@200;300;400&display=swap');
+* {
+  font-family: candara;
+  transition: all 0.3s linear;
+}
+body {
+  padding: 0;
+  margin: 0;
+}
+.container {
+  min-height: calc(100vh);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#main {
+  padding: 2% 4%;
+  border-radius: 20px;
+  align-self: center;
+  background-color: #000;
+}
+#color {
+  text-transform: uppercase;
+  text-shadow: none;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+}
+#btn {
+  font-weight: bold;
+  height: 5vh;
+  width: 15vh;
+  border-radius: 20px;
+  color: #000;
+}
+#btn:hover {
+  background: #5e5e5e !important;
+  cursor: pointer;
+  color: #fff;
+}
+.e {
+  color: #000;
+  position: fixed;
+  bottom: .5vh;
+}
